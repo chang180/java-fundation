@@ -5,6 +5,7 @@ public class HelloWorld {
         System.out.println("Hello World!");
         System.out.println("Pi(萊布尼茲級數) = " + calcPi(100000000));
         System.out.println("Pi(蒙地卡羅演算法) = " + calcPiMonteCarlo(100000000));
+        
     }
 
     // 計算圓周率(萊布尼茲級數)
