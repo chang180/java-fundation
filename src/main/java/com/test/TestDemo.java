@@ -11,9 +11,11 @@ public class TestDemo {
         retireCalc();
         // 計算BMI
         double bmi = calcBMI(Person.height, Person.weight);
-         // 判斷BMI，給予健康建議
+        // 判斷BMI，給予健康建議
         judgeBMI(bmi);
+
     }
+
 
     private static void judgeBMI(double bmi) {
         // use switch case
@@ -31,7 +33,7 @@ public class TestDemo {
     }
 
     private static double calcBMI(int height, int weight) {
-        double bmi =  weight / Math.pow(height / 100.0, 2);
+        double bmi = weight / Math.pow(height / 100.0, 2);
         System.out.println("Your BMI is " + bmi);
         return bmi;
     }
