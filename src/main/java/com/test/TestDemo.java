@@ -4,6 +4,12 @@ import java.util.Calendar;
 
 public class TestDemo {
 
+//    public static class String {
+//        public String(String s) {
+//            System.out.println("String constructor called");
+//        }
+//    }
+
     public static void main(String[] args) {
         // 問候
         greet();
