@@ -1,6 +1,6 @@
 package com.neweb;
 
-public class finalDemo {
+public class FinalDemo {
     public static void main(String[] args) {
         final int x = 10;
 //        x = 20; // error: cannot assign a value to final variable x

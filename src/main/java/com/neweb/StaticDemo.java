@@ -1,6 +1,6 @@
 package com.neweb;
 
-public class staticDemo {
+public class StaticDemo {
     static int i = 123;
     String str = "abc";
     public void function1(){
