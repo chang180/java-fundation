@@ -1,6 +1,5 @@
 package homework.unit45;
 
-import java.util.*;
 public class GenericB<T> {
     public T foo;
     public void setFoo(T foo) {
